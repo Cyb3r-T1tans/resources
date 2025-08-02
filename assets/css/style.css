@@ -1,4 +1,9 @@
 .navbar-danger {
-    background-color: red !important;
-    color: yellow !important;
+    --bs-navbar-color: rgba(255, 222, 33, 1);
+    --bs-navbar-hover-color: rgba(255, 222, 33, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 222, 33, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: yellow;
+    --bs-navbar-brand-hover-color: rgba(255, 222, 33, 0.75);;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
 }
