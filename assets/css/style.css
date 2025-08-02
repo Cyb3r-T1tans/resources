@@ -16,3 +16,6 @@
 .cu-medal {
     color: darkorange;
 }
+.drop-shadow {
+	filter: drop-shadow(5px 5px 10px #000000);
+}
