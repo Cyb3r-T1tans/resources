@@ -7,3 +7,12 @@
     --bs-navbar-brand-hover-color: rgba(255, 222, 33, 0.75);;
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
 }
+.gold-medal {
+    color: yellow;
+}
+.silver-medal {
+    color: silver;
+}
+.cu-medal {
+    color: darkorange;
+}
