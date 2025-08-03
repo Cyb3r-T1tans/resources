@@ -1,21 +1,61 @@
 .navbar-danger {
-    --bs-navbar-color: yellow;
-    --bs-navbar-hover-color: rgba(255, 222, 33, 0.75);
-    --bs-navbar-disabled-color: rgba(255, 222, 33, 0.25);
-    --bs-navbar-active-color: #fff;
-    --bs-navbar-brand-color: yellow;
-    --bs-navbar-brand-hover-color: rgba(255, 222, 33, 0.75);;
-    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-color: yellow;
+  --bs-navbar-hover-color: rgba(255, 222, 33, 0.75);
+  --bs-navbar-disabled-color: rgba(255, 222, 33, 0.25);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: yellow;
+  --bs-navbar-brand-hover-color: rgba(255, 222, 33, 0.75);
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
 }
 .gold-medal {
-    color: yellow;
+  color: yellow;
 }
 .silver-medal {
-    color: silver;
+  color: silver;
 }
 .cu-medal {
-    color: darkorange;
+  color: darkorange;
 }
 .drop-shadow {
-	filter: drop-shadow(5px 5px 10px #000000);
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+.icon {
+  width: 400px;
+  height: 229px;
+  background-image: url("./images/game_ranking_icons.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* First row */
+.icon-1-1 {
+  background-position: 0 0;
+}
+.icon-1-2 {
+  background-position: -400px 0;
+}
+.icon-1-3 {
+  background-position: -800px 0;
+}
+
+/* Second row */
+.icon-2-1 {
+  background-position: 0 -229px;
+}
+.icon-2-2 {
+  background-position: -400px -229px;
+}
+.icon-2-3 {
+  background-position: -800px -229px;
+}
+
+/* Third row */
+.icon-3-1 {
+  background-position: 0 -458px;
+}
+.icon-3-2 {
+  background-position: -400px -458px;
+}
+.icon-3-3 {
+  background-position: -800px -458px;
 }
